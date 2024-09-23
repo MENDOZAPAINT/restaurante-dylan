@@ -1,5 +1,6 @@
 @props(['backgroundColor' => 'default', 'textColor' => 'default-color', 'fullWidth' => false])
 
+
 @php
     $backgroundColors = [
         'green' => 'bg-green',

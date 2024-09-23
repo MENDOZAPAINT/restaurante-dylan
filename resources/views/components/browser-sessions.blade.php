@@ -79,9 +79,9 @@
 
         <x-slot name="footer">
             <div class="p-2 flex justify-end">
-                <x-secondary-button x-on:click="$dispatch('close')">
+                <x-button x-on:click="$dispatch('close')">
                     {{ __('Cancelar') }}
-                </x-secondary-button>
+                </x-button>
 
                 <x-button class="ml-3" x-on:click.prevent="document.getElementById('logout-form').submit();">
                     {{ __('Confirmar eliminación') }}
