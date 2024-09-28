@@ -94,7 +94,7 @@
 
 <style>
     .session-content {
-        max-width: 1120px;
+        max-width: 100%;
         width: 100%;
     }
 
